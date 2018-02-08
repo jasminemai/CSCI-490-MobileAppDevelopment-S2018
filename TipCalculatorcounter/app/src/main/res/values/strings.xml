@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TipCalculator-counter</string>
+    <string name="billAmount">Bill Amount:</string>
+    <string name="calculate">Calculate!</string>
+    <string name="numParty"># in Party</string>
+    <string name="dollarSign">$%.2f</string>
+    <string name="fifteen">15%</string>
+    <string name="eighteen">18%</string>
+    <string name="twenty">20%</string>
+    <string name="other">Other</string>
+</resources>
