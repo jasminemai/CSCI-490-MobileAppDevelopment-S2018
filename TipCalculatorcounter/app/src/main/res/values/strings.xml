@@ -3,7 +3,8 @@
     <string name="billAmount">Bill Amount:</string>
     <string name="calculate">Calculate!</string>
     <string name="numParty"># in Party</string>
-    <string name="dollarSign">$%.2f</string>
+    <string name="dollarSign">Tip: $%.2f</string>
+    <string name="dollarSign2">Total: $%.2f</string>
     <string name="fifteen">15%</string>
     <string name="eighteen">18%</string>
     <string name="twenty">20%</string>

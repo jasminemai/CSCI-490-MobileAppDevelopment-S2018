@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         final TextView tipTotal = findViewById(R.id.tipTotal);
         final TextView totalBill = findViewById(R.id.totalText);
         final Button calculate = findViewById(R.id.calculate);
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                     total = bill + tip;
                     if (partySize == 1) {
                         tipTotal.setText(String.format(res.getString(R.string.dollarSign), tip));
-                        totalBill.setText(String.format(res.getString(R.string.dollarSign), total));
+                        totalBill.setText(String.format(res.getString(R.string.dollarSign2), total));
 
                     }
                     else
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
                         total = total / partySize ;
                         tipTotal.setText(String.format(res.getString(R.string.dollarSign), tip));
-                        totalBill.setText(String.format(res.getString(R.string.dollarSign), total));
+                        totalBill.setText(String.format(res.getString(R.string.dollarSign2), total));
 
                     }
                 } else if (opt18.isChecked()) {
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                     total = bill + tip;
                     if (partySize == 1) {
                         tipTotal.setText(String.format(res.getString(R.string.dollarSign), tip));
-                        totalBill.setText(String.format(res.getString(R.string.dollarSign), total));
+                        totalBill.setText(String.format(res.getString(R.string.dollarSign2), total));
 
                     }
                     else
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
                         total = total / partySize ;
                         tipTotal.setText(String.format(res.getString(R.string.dollarSign), tip));
-                        totalBill.setText(String.format(res.getString(R.string.dollarSign), total));
+                        totalBill.setText(String.format(res.getString(R.string.dollarSign2), total));
 
                     }
                 } else if (opt20.isChecked()) {
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                     total = bill + tip;
                     if (partySize == 1) {
                         tipTotal.setText(String.format(res.getString(R.string.dollarSign), tip));
-                        totalBill.setText(String.format(res.getString(R.string.dollarSign), total));
+                        totalBill.setText(String.format(res.getString(R.string.dollarSign2), total));
 
                     }
                     else
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
                         total = total / partySize ;
                         tipTotal.setText(String.format(res.getString(R.string.dollarSign), tip));
-                        totalBill.setText(String.format(res.getString(R.string.dollarSign), total));
+                        totalBill.setText(String.format(res.getString(R.string.dollarSign2), total));
 
                     }
                 }
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                     total = bill + tip;
                     if (partySize == 1) {
                         tipTotal.setText(String.format(res.getString(R.string.dollarSign), tip));
-                        totalBill.setText(String.format(res.getString(R.string.dollarSign), total));
+                        totalBill.setText(String.format(res.getString(R.string.dollarSign2), total));
 
                     }
                     else
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
                         total = total / partySize ;
                         tipTotal.setText(String.format(res.getString(R.string.dollarSign), tip));
-                        totalBill.setText(String.format(res.getString(R.string.dollarSign), total));
+                        totalBill.setText(String.format(res.getString(R.string.dollarSign2), total));
 
                     }
                 }
