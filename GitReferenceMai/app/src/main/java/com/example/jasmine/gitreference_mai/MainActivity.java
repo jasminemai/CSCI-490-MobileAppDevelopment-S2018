@@ -1,5 +1,6 @@
 package com.example.jasmine.gitreference_mai;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -36,5 +37,14 @@ public class MainActivity extends AppCompatActivity {
         }
         adapter = new Adapter(this, arrayList);
         listView.setAdapter(adapter);
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent (MainActivity.this, Addition.class);
+                startActivity(i);
+            }
+        });
     }
 }
